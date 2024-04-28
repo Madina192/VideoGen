@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/postVideoFragment">
+
+    <fragment
+        android:id="@+id/infoFragment"
+        android:name="com.example.videogen.ui.info.InfoFragment"
+        android:label="fragment_info"
+        tools:layout="@layout/fragment_info" />
+    <fragment
+        android:id="@+id/myVideosFragment"
+        android:name="com.example.videogen.ui.myVideos.MyVideosFragment"
+        android:label="fragment_my_videos"
+        tools:layout="@layout/fragment_my_videos" />
+    <fragment
+        android:id="@+id/postVideoFragment"
+        android:name="com.example.videogen.ui.postVideo.PostVideoFragment"
+        android:label="fragment_post_video"
+        tools:layout="@layout/fragment_post_video" />
+</navigation>
